@@ -1,6 +1,7 @@
 #header{
 	color: CornflowerBlue;
 	font-family: 'Baloo', cursive;
+	text-align: center;
 
 }
 
@@ -46,6 +47,11 @@
 	background-color: white;
 	padding-left: 10px;
 	font-family: 'Hammersmith One', sans-serif;
+}
+
+#submitButton{
+	border-radius: 25px;
+	background-color: CornflowerBlue;
 }
 
 #schpeel{
