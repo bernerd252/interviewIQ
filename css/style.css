@@ -36,11 +36,15 @@
 }
 
 #firstName{
-	background-color: white;
+	background: rgba(252, 252, 252, .7);
 	padding-right: 10px;
-	border-radius: 25px;
+	border-radius: 15px;
 	font-family: 'Hammersmith One', sans-serif;
 	margin-right:5px;
+	 border-style: solid;
+    border-color: white;
+    color: white
+   
 
 }
 
@@ -55,7 +59,7 @@
 }
 
 #submitButton{
-	border-radius: 25px;
+	border-radius: 15px;
 	background-color: #8cf5ff;
 	color: grey;
 	font-family: 'Montserrat', sans-serif;
