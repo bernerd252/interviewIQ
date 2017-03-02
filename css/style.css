@@ -6,13 +6,13 @@
 }
 
 #background{
-	background-image: url("../images/backgroundImage.jpg");
+	background: url("../images/backgroundImage.jpg") no-repeat center center fixed;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	background-size: 120%
-	background-repeat: no-repeat;
-	width:100%
-	height: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 
@@ -48,6 +48,10 @@
 	background-color: white;
 	padding-left: 10px;
 	font-family: 'Hammersmith One', sans-serif;
+}
+
+.datepicker{
+	color: lightgrey;
 }
 
 #submitButton{
