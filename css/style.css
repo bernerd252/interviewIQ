@@ -35,31 +35,51 @@
 }
 
 #firstName{
-	background: rgba(252, 252, 252, 1);
+	background: rgba(252, 252, 252, .85);
 	padding-right: 10px;
-	border-radius: 15px;
+	border-radius: 1px;
 	font-family: 'Hammersmith One', sans-serif;
 	margin-right:5px;
 	 border-style: solid;
     border-color: grey;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
-
 }
 
-#surname{
-	background-color: white;
-	padding-left: 10px;
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+
+
+#dob{
+	color: white;
+	text-align: center;
 	font-family: 'Hammersmith One', sans-serif;
+	padding-top: 20px;
 }
 
-.datepicker{
-	color: lightgrey;
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black !important;
+     opacity:  .85;
 }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black !important;
+   opacity:  .85;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black !important;
+   opacity:  .85;
+}
+:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+   color:    black !important;
+    opacity:  .85;
+}
+
 
 #submitButton{
-	border-radius: 15px;
+	border-radius: 1px;
 	background-color: #8cf5ff;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
@@ -68,7 +88,7 @@
 }
 
 #submitButton:hover{
-	border-radius: 25px;
+	border-radius: 2px;
 	background-color: #5d81c7;
 	color: white;
 }
