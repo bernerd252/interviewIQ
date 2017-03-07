@@ -1,120 +1,130 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Interview IQ</title>
 </head>
+
 <!-- STYLESHEET -->
 <link rel="stylesheet" href="css/style.css">
-<!-- MATERIALIZE -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 <!-- FONTAWESOME -->
 <script src="https://use.fontawesome.com/16616f0bda.js"></script>
 <!-- GOOGLEFONTS -->
-<link href="https://fonts.googleapis.com/css?family=Baloo|Great+Vibes|Hammersmith+One|Kanit|Michroma|Montserrat|Numans|Quando" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo|Hammersmith+One|Montserrat" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Catamaran|Didact+Gothic|Hind|Hind+Siliguri|Josefin+Sans|Khula|Nunito|Quattrocento+Sans|Quicksand|Raleway" rel="stylesheet">
 <!-- JS -->
 <script src="js/index.js"></script>
+<!-- COLORFILTER -->
+<link rel="stylesheet" type="text/css" href="css/colorfilter.css">
 
 <body>
-<!-- HEDAER -->
-	<div class = "row">
-		<div class = "col l1 offset-l2 col s12">
-			<h2 id = "header">InterviewIQ</h2>
+	<div class="row">
+		<div class="col s1 offset-s1">
+			<h1 id="header">InterviewIQ</h1>
 		</div>
 	</div>
-	<!-- BODY -->
-	<div class = "row">
-		<div class = "col s12" id = "background">
-			<!-- VALUEPORP -->
-			<div class = "row">
-				<div class = "col s8 offset-s2" id  = "valueProp">
-					<h4>Find Job. Get Job. Love Job</h4>
-				</div>
-			</div>
-			<!-- SIGNUP SCHPEEL -->
-			<div class = "row">
-				<div class = "col s12" id = "betaBeg">
-					<h5>Help Us Help You. Sign Up for Free Now!</h5>
+	<div class="row">
+		<div class="col s12" id="background">
+			<div class="row">
+				<div class="cols12">
+					<h2 id="valuePropText">Best. Interview. Ever.</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12" id="betaBegText">
-					<h6>Sign up to become a Beta Tester and receive ....</h6>
+				<div class="col s10 offset-s1 schpeel">
+					<h3><strong>You spend more time at work than with your family</strong></h3><h3> you should do something you love. Enri</h3><h3> We'll help you find it and get it.</strong></h3>
 				</div>
 			</div>
-				<!-- FORM -->
-			 	<div class="row">
-				    <form class="col s12">
-				        <div class="row">
-				       		<div class="input-field col s4 offset-s2" id="firstName">
-				          		
-				         		<input id="icon_prefix" placeholder="First Name" type="text" name="firstName" id="firstName">
-				          		<label for="icon_prefix"></label>
-				        	</div>
-				        	<div class="input-field col s4" id = "firstName">
-				          		
-				          		<input id="icon_prefix" type="text" class="validate"  placeholder="Surname" type="text" name="surname" id="surname">
-				          		<label for="icon_prefix" ></label>
-				        	</div>
-				     	 </div>
-				     	 <div class="row">
-				       		<div class="input-field col s8 offset-s2" id="firstName">
-				          		
-				         		<input id="icon_prefix" type="text" class="validate" placeholder="Email Address" type="text" name="email" id="email">
-				          		<label for="icon_prefix"></label>
-				        	</div>
-				        </div>
-				         <div class="row">
-				       		<div class="input-field col s8 offset-s2" id="firstName">
-				          		
-				         		<input placeholder="Password" id="icon_prefix" type="password" class="validate" type="text" name="password" id="password">
-				          		<label for="icon_prefix"></label>
-				        	</div>
-				        </div>
-				         <div class="row">
-				         	<div class = "col l2 offset-l4 col s4 offset-s2">
-				         		<h5 id="dob">Date of Birth</h5>
-				         	</div>
-				         	<div class = "input-field col s4" id="firstName">
-				         		<input id="icon_prefix" type="date" class="validate" name="dob" id="dob">
-				          		<label for="icon_prefix"></label>
-				         	</div>
-				         	
-				        </div>
-				    </form>
-			  	</div>
-			  	<!-- SUBMIT BUTTON -->
-			  	<div class="row">
-			  		<div class="col s12 center-align">
-			  			<a class="waves-effect waves-light btn" id="submitButton">SIGN UP!</a>
-			  		</div>
-			  	</div>
-			  	<!-- MORE SCHPEEL -->
-			  	<div class="row">
-			  		<div class="col s8 offset-s2">
-			  			<h5 id="schpeel">An Intelligent Video Interviewing platform that steamlines the Hiring Process for both Talent and Employers</h5>
-			  		</div>
-			  	</div>
-			 </div>
-		</div>
-	</div>
-	<!-- SOCIALPROOF BAR -->
-	<div class="row" id="socialProofBar">
-		<div class = "col s12" >
-			<div class="row">
-				<div class="col s4" id = "socialProof0">
-					<img src="images/rocket.png" class="proofIcon">
-					<h5 class="socialProofText">Happy Employees Outperform The Competion by 20%!</h5>
+			<div class="row"> 
+				<div class="col l3 offset-l3 col s12">
+					<a class="modal-trigger waves-effect waves-light btn-flat"  href="#modal1" id="submitButton">GET HIRED!</a>
 				</div>
-				<div class="col s4" id = "socialProof1">
-					<img src="images/friends.png" class="proofIcon">
-					<h5 class="socialProofText">Close Work Friendships Boost Employee Satisfaction by 50%</h5>
-				</div>
-				<div class="col s4" id = "socialProof2">
-					<img src="images/money.png" class="proofIcon">
-					<h5 class="socialProofText">Happy Sales People Produce 37% More Sales!</h5>
+				<div class="col l3 col s12">
+					<a class="modal-trigger waves-effect waves-light btn-flat" href="#modal2" id="contactButton">HIRE NOW</a>
+
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col s12 col l4 socialProofBox">
+			<h4 class="socialPRoofText">Video Profile</h4>
+			<img src="images/video.jpg">
+			<p class="salesPitch" id="videoPitch">Optimise your chances with a free Video Profile that allows you to give the best interview ever, without leaving your home.</p>
+		</div>
+		<div class="col s12 col l4 socialProofBox">
+			<h4 class="socialPRoofText">Interview Feedback</h4>
+			<img src="images/feedback.jpg">
+			<p class="salesPitch">Free AI and human feedback means you can continually improve your "First Impression" even after the interview.</p>
+		</div>
+		<div class="col s12 col l4 socialProofBox">
+			<h4 class="socialPRoofText">AI matchmaking</h4>
+			<img id="match" src="images/matchmaking.jpg">
+			<p class="salesPitch">Our algorithm matches your personallity to the right company culture to make you happier, more productive and successful.</p>
+		</div>
+	</div>	    
+
+<!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+  <div class="row">
+  	<div class="col s12">
+  		<h1 id="modalHeader">InterviewIQ</h1>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col s8 offset s2">
+  		<h3 id="modalSchpeel">Help us start helping you...</h3>
+  	</div>
+  </div>
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="dob">
+      		<input type="date" class="datepicker">
+      	</div>
+      </div>
+    </form>
+  </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat " id="submitButton">JOIN </a>
+    </div>
+  </div>
+
+ <div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    </div>
+  </div>
+
+
+
 </body>
-</html>
