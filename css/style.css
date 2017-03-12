@@ -7,8 +7,15 @@ img{
 #header{
 	color:#5d81c7;
 	font-family: 'Baloo', cursive;
-	text-align: center;
+	
 	font-size: 40px;	
+}
+
+#underHeader{
+	color: #5d81c7;
+	font-family: "Montserrat", sans-serif;
+	font-size: 21px;
+	margin-top: -35px;
 }
 
 #background{
